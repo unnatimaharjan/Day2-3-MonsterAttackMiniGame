@@ -1,0 +1,73 @@
+body{
+    background-color: #000b59;
+}
+
+h1{
+    font-family: Bruno Ace SC;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#health-levels{
+    background-color: wheat;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 200px;
+    padding: 20px;
+    display: block;
+    margin-top: 50px;
+}
+
+progress{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 80%;
+    height: 2rem;
+}
+
+progress::-webkit-progress-bar {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+ }
+
+ progress::-webkit-progress-value {
+    background-color: #f26e7d;
+ }
+
+ #controls{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    background-color: wheat;
+    display: block;
+    margin-top: 50px;
+    border-radius: 10px;
+    height: 200px;
+ }
+
+ button{
+    text-align: center;
+    background-color: #f26e7d;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: auto;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold ;
+    width: 40%;
+    margin-top: 30px;
+    height: 50px;
+ }
+
+button:hover{
+    background-color: #bf5662;
+}
+

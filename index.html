@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Attack Game</title>
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>THE MONSTER KILLER! <span><i class="fa fa-gamepad" aria-hidden="true"></i></span></h1>
+    
+    <section id="health-levels">
+        <h2>MONSTER HEALTH</h2>
+        <progress id="monster-health" max="100" value="100">100%</progress>
+        <H2>PLAYER HEALTH</H2>
+        <progress id="player-health" max="100" value="100">100%</progress>
+    </section>
+
+    <section id="controls">
+        <button id="attack-btn">ATTACK</button>
+        <button id="strong-btn">STRONG ATTACK</button>
+        <button id="heal-btn">HEAL</button>
+        <button id="reset-btn">RESET</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
