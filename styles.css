@@ -71,3 +71,17 @@ button:hover{
     background-color: #bf5662;
 }
 
+#bonus-life{
+    background-color: #bf5662;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    border: 1px solid black;
+}
+
+#log{
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    margin-top: 10px;
+}
